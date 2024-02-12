@@ -1,0 +1,34 @@
+.header {
+  background-color: #ddd;
+}
+
+.none {
+  display: none;
+}
+
+#myLinks {
+  text-align: right;
+  position: absolute;
+  padding: 5rem 2rem 2rem 2rem;
+  right: 0;
+  top: 0;
+}
+
+.block {
+  display: block;
+}
+
+.icon {
+  font-size: 2.5rem;
+  width: fit-content;
+  display: block;
+  position: absolute;
+  padding: 1rem 2rem;
+  right: 0;
+  top: 0;
+}
+
+.navBarLink:hover {
+  background-color: #ddd;
+  color: black;
+}

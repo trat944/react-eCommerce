@@ -1,0 +1,205 @@
+[
+  {
+    "name": "John Doe",
+    "password": "password123",
+    "email": "johndoe@example.com",
+    "cart": 0,
+    "whishlist": 0
+  },
+  {
+    "name": "Jane Smith",
+    "password": "smith456",
+    "email": "janesmith@example.com",
+    "cart": 0,
+    "whishlist": 0
+  },
+  {
+    "name": "Michael Johnson",
+    "password": "mjohnson789",
+    "email": "michaeljohnson@example.com",
+    "cart": 0,
+    "whishlist": 0
+  },
+  {
+    "name": "Emily Davis",
+    "password": "edavis123",
+    "email": "emilydavis@example.com",
+    "cart": 0,
+    "whishlist": 0
+  },
+  {
+    "name": "David Wilson",
+    "password": "wilson456",
+    "email": "davidwilson@example.com",
+    "cart": 0,
+    "whishlist": 0
+  },
+  {
+    "name": "Olivia Martinez",
+    "password": "omartinez789",
+    "email": "oliviamartinez@example.com",
+    "cart": 0,
+    "whishlist": 0
+  },
+  {
+    "name": "Daniel Anderson",
+    "password": "danderson123",
+    "email": "danielanderson@example.com",
+    "cart": 0,
+    "whishlist": 0
+  },
+  {
+    "name": "Sophia Thomas",
+    "password": "sthomas456",
+    "email": "sophiathomas@example.com",
+    "cart": 0,
+    "whishlist": 0
+  },
+  {
+    "name": "Matthew Jackson",
+    "password": "mjackson789",
+    "email": "matthewjackson@example.com",
+    "cart": 0,
+    "whishlist": 0
+  },
+  {
+    "name": "Isabella White",
+    "password": "iwhite123",
+    "email": "isabellawhite@example.com",
+    "cart": 0,
+    "whishlist": 0
+  },
+  {
+    "name": "Andrew Harris",
+    "password": "aharris456",
+    "email": "andrewharris@example.com",
+    "cart": 0,
+    "whishlist": 0
+  },
+  {
+    "name": "Ava Martin",
+    "password": "amartin789",
+    "email": "avamartin@example.com",
+    "cart": 0,
+    "whishlist": 0
+  },
+  {
+    "name": "William Thompson",
+    "password": "wthompson123",
+    "email": "williamthompson@example.com",
+    "cart": 0,
+    "whishlist": 0
+  },
+  {
+    "name": "Mia Garcia",
+    "password": "mgarcia456",
+    "email": "miagarcia@example.com",
+    "cart": 0,
+    "whishlist": 0
+  },
+  {
+    "name": "Ethan Martinez",
+    "password": "emartinez789",
+    "email": "ethanmartinez@example.com",
+    "cart": 0,
+    "whishlist": 0
+  },
+  {
+    "name": "Sofia Lewis",
+    "password": "slewis123",
+    "email": "sofialewis@example.com",
+    "cart": 0,
+    "whishlist": 0
+  },
+  {
+    "name": "James Lee",
+    "password": "jlee456",
+    "email": "jameslee@example.com",
+    "cart": 0,
+    "whishlist": 0
+  },
+  {
+    "name": "Amelia Walker",
+    "password": "awalker789",
+    "email": "ameliawalker@example.com",
+    "cart": 0,
+    "whishlist": 0
+  },
+  {
+    "name": "Benjamin Hall",
+    "password": "bhall123",
+    "email": "benjaminhall@example.com",
+    "cart": 0,
+    "whishlist": 0
+  },
+  {
+    "name": "Charlotte Young",
+    "password": "cyoung456",
+    "email": "charlotteyoung@example.com",
+    "cart": 0,
+    "whishlist": 0
+  },
+  {
+    "name": "Alexander Allen",
+    "password": "aallen789",
+    "email": "alexanderallen@example.com",
+    "cart": 0,
+    "whishlist": 0
+  },
+  {
+    "name": "Harper King",
+    "password": "hking123",
+    "email": "harperking@example.com",
+    "cart": 0,
+    "whishlist": 0
+  },
+  {
+    "name": "Daniel Scott",
+    "password": "dscott456",
+    "email": "danielscott@example.com",
+    "cart": 0,
+    "whishlist": 0
+  },
+  {
+    "name": "Luna Lopez",
+    "password": "llopez789",
+    "email": "lunalopez@example.com",
+    "cart": 0,
+    "whishlist": 0
+  },
+  {
+    "name": "Matthew Green",
+    "password": "mgreen123",
+    "email": "matthewgreen@example.com",
+    "cart": 0,
+    "whishlist": 0
+  },
+  {
+    "name": "Lily Adams",
+    "password": "ladams456",
+    "email": "lilyadams@example.com",
+    "cart": 0,
+    "whishlist": 0
+  },
+  {
+    "name": "Lucas Baker",
+    "password": "lbaker789",
+    "email": "lucasbaker@example.com",
+    "cart": 0,
+    "whishlist": 0
+  },
+  {
+    "name": "Chloe Hill",
+    "password": "chill123",
+    "email": "chloehill@example.com",
+    "cart": 0,
+    "whishlist": 0
+  },
+  {
+    "name": "Jackson Cook",
+    "password": "jcook456",
+    "email": "jacksoncook@example.com",
+    "cart": 0,
+    "whishlist": 0
+  }
+]

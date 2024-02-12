@@ -1,0 +1,6 @@
+.contentImg {
+  padding: 1rem;
+  text-align: center;
+  width: 90%;
+  object-fit: cover;
+}

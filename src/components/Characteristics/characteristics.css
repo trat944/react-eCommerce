@@ -1,0 +1,21 @@
+.characteristics_container {
+  margin: auto;
+  padding: 1rem 2rem;
+  background-color: #697861;
+}
+
+.characteristics_container div:first-child, .characteristics_container div:nth-child(2) {
+  margin-bottom: 1rem;
+}
+
+.characteristics_container div svg {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: white;
+}
+
+.characteristics_container div span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+}

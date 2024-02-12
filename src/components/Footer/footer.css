@@ -1,0 +1,30 @@
+.footer_container {
+  margin: 3rem auto 0;
+  padding: 1rem;
+  background-color: #FFFFFF;
+}
+
+.footer-section {
+  padding: 1rem;
+  margin-bottom: 0.7rem;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer-section h4 {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2rem;
+  color: #333;
+  text-transform: uppercase;
+  margin: 0.5rem auto;
+}
+
+.footer_container p {
+  margin: 0;
+  display: none;
+}
+
+.footer-section:hover p {
+  display: block; 
+}
