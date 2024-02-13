@@ -1,5 +1,41 @@
-/* .login_container {
+.login_container {
+  background-color:#F5F5DC;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 8px;
+  display: block;
+}
 
+.login_container h2 {
+  margin: 0 auto;
+}
 
-  
-} */
+.login_container div {
+  margin: 1rem;
+}
+
+.login_container span {
+  margin-top: 0.7rem;
+  font-size: 0.7rem;
+  display: block;
+}
+
+.login_container button {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color: #697861; 
+  color: white; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; 
+  transition: background-color 0.3s;
+}
+
+.login_container button:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+}
