@@ -17,6 +17,7 @@
 .login_container span {
   margin-top: 0.7rem;
   font-size: 0.7rem;
+  text-decoration: underline;
   display: block;
 }
 

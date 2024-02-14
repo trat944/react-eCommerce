@@ -32,3 +32,10 @@
   background-color: #ddd;
   color: black;
 }
+
+#myLinks a {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+}
