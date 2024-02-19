@@ -23,7 +23,7 @@ export const PasswordInput: React.FC<Props> = ({onInputChange}) => {
   return (
     <div className="pw_input">
       <FontAwesomeIcon icon={faLock} />
-      <input onChange={onAddValue} type="password" placeholder='Password' />
+      <input name='password' onChange={onAddValue} type="password" placeholder='Password' />
     </div>
   );
 };

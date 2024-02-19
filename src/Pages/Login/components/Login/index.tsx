@@ -19,7 +19,6 @@ export const LoginContainer = () => {
         userFetched.name === user.name && userFetched.password === user.password
       ));
       if (loggedUser) {
-        console.log(loggedUser)
         dispatch({ type: "LOGIN", payload: loggedUser });
         setFoundUser(false);
         <Navigate to="/homepage" />;
@@ -46,5 +45,3 @@ export const LoginContainer = () => {
     </div>
   )
 }
-
-///useContext -> usereducer

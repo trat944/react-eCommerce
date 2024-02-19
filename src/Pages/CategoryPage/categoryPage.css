@@ -1,0 +1,17 @@
+.products_container {
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2rem;
+  justify-content: center;
+}
+
+h4 {
+  text-align: left;
+  margin-left: 3.5rem;
+}
+
+.back_button {
+  font-size: 2rem;
+  color: black;
+}

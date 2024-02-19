@@ -23,7 +23,7 @@ export const UsernameInput: React.FC<Props> = ({onInputChange}) => {
   return (
     <div className="user_input">
       <FontAwesomeIcon icon={faUser} />
-      <input onChange={onAddValue} type="text" placeholder='Username' />
+      <input name='username' onChange={onAddValue} type="text" placeholder='Username' />
     </div>
   );
 };

@@ -1,0 +1,26 @@
+.category_container {
+  margin: 2rem auto 1rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1rem 2rem;
+  justify-content: center;
+}
+
+.categorySelector img {
+  width: 140px;
+  height: 140px;
+  border-radius: 20px;
+  object-fit: contain;
+}
+
+.categorySelector h2 {
+  font-size: 1.2rem;
+  margin: 0.4rem 0;
+  width: 140px;
+}
+
+.categorySelector a {
+  text-decoration: none; 
+  color: black; 
+}
+

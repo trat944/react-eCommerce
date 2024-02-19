@@ -1,13 +1,19 @@
 import './homepage.css';
-import { UserContext } from '../../hooks/useContext';
-import { useContext } from 'react';
+import { PageLayout } from '../../components/layout/Pagelayout';
+import { Characteristics } from '../../components/common/Characteristics';
+import { Reviews } from '../../components/common/Reviews';
+import { WelcomeContainer } from './components/WelcomeContainer';
+import { CategoryContainer } from './components/CategoryContainer';
 
 
 export const Homepage = () => {
-  const user = useContext(UserContext);
-  console.log(user);
+
   return (
-    <div>index</div>
+    <PageLayout>
+      <WelcomeContainer />
+      <CategoryContainer />
+      <Characteristics />
+      <Reviews />
+    </PageLayout>
   )
 }
-
