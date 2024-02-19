@@ -4,13 +4,20 @@ import './inputs.css'
 import { ChangeEvent } from 'react';
 
 type Props = {
-  onInputChange: React.Dispatch<React.SetStateAction<string>>;
+  onInputChange: React.Dispatch<React.SetStateAction<{
+    name: string;
+    password: string;
+  }>>;
 }
 
 export const UsernameInput: React.FC<Props> = ({onInputChange}) => {
 
   const onAddValue = (event: ChangeEvent<HTMLInputElement>) => {
-    onInputChange(event.target.value);
+    const newUserName = event.target.value;
+    onInputChange(user => ({
+      ...user,
+      name: newUserName
+    }));
   }
 
   return (

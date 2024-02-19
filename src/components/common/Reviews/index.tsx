@@ -2,8 +2,7 @@ import './reviews.css'
 import { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
-import { fetchReviews } from '../../utils/async_functions';
-import { Review } from '../../utils/async_functions';
+import { fetchReviews, Review } from '../../../utils/async_functions';
 
 export const Reviews = () => {
 

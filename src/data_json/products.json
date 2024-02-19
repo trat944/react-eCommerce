@@ -1,0 +1,143 @@
+[
+  {
+    "id": "1",
+    "name": "Flower panel",
+    "category": "panel",
+    "description": "panel",
+    "price": "39,99€",
+    "image": "http://example.com/image1.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Product 2",
+    "category": "Category 2",
+    "price": "19.99",
+    "image": "http://example.com/image2.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Product 3",
+    "category": "Category 1",
+    "price": "15.99",
+    "image": "http://example.com/image3.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Product 4",
+    "category": "Category 3",
+    "price": "7.99",
+    "image": "http://example.com/image4.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Product 5",
+    "category": "Category 2",
+    "price": "12.99",
+    "image": "http://example.com/image5.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Product 6",
+    "category": "Category 1",
+    "price": "9.99",
+    "image": "http://example.com/image6.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Product 7",
+    "category": "Category 3",
+    "price": "14.99",
+    "image": "http://example.com/image7.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Product 8",
+    "category": "Category 2",
+    "price": "11.99",
+    "image": "http://example.com/image8.jpg"
+  },
+  {
+    "id": "9",
+    "name": "Product 9",
+    "category": "Category 1",
+    "price": "8.99",
+    "image": "http://example.com/image9.jpg"
+  },
+  {
+    "id": "10",
+    "name": "Product 10",
+    "category": "Category 3",
+    "price": "13.99",
+    "image": "http://example.com/image10.jpg"
+  },
+  {
+    "id": "11",
+    "name": "Product 11",
+    "category": "Category 2",
+    "price": "10.99",
+    "image": "http://example.com/image11.jpg"
+  },
+  {
+    "id": "12",
+    "name": "Product 12",
+    "category": "Category 1",
+    "price": "7.99",
+    "image": "http://example.com/image12.jpg"
+  },
+  {
+    "id": "13",
+    "name": "Product 13",
+    "category": "Category 3",
+    "price": "12.99",
+    "image": "http://example.com/image13.jpg"
+  },
+  {
+    "id": "14",
+    "name": "Product 14",
+    "category": "Category 2",
+    "price": "9.99",
+    "image": "http://example.com/image14.jpg"
+  },
+  {
+    "id": "15",
+    "name": "Product 15",
+    "category": "Category 1",
+    "price": "6.99",
+    "image": "http://example.com/image15.jpg"
+  },
+  {
+    "id": "16",
+    "name": "Product 16",
+    "category": "Category 3",
+    "price": "11.99",
+    "image": "http://example.com/image16.jpg"
+  },
+  {
+    "id": "17",
+    "name": "Product 17",
+    "category": "Category 2",
+    "price": "8.99",
+    "image": "http://example.com/image17.jpg"
+  },
+  {
+    "id": "18",
+    "name": "Product 18",
+    "category": "Category 1",
+    "price": "5.99",
+    "image": "http://example.com/image18.jpg"
+  },
+  {
+    "id": "19",
+    "name": "Product 19",
+    "category": "Category 3",
+    "price": "10.99",
+    "image": "http://example.com/image19.jpg"
+  },
+  {
+    "id": "20",
+    "name": "Product 20",
+    "category": "Category 2",
+    "price": "7.99",
+    "image": "http://example.com/image20.jpg"
+  }
+]

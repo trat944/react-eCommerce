@@ -4,13 +4,20 @@ import './inputs.css'
 import { ChangeEvent } from 'react';
 
 type Props = {
-  onInputChange: React.Dispatch<React.SetStateAction<string>>;
+  onInputChange: React.Dispatch<React.SetStateAction<{
+    name: string;
+    password: string;
+  }>>;
 }
 
 export const PasswordInput: React.FC<Props> = ({onInputChange}) => {
 
   const onAddValue = (event: ChangeEvent<HTMLInputElement>) => {
-    onInputChange(event.target.value);
+    const newUserPassword = event.target.value;
+    onInputChange(user => ({
+      ...user,
+      password: newUserPassword
+    }));
   }
 
   return (
