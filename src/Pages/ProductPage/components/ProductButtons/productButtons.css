@@ -1,0 +1,37 @@
+.btn_container {
+  display: flex; 
+  justify-content: center;
+  gap: 3rem;
+}
+
+.add_to_cart,
+.buy_now {
+  padding: 10px 20px; 
+  font-size: 16px; 
+  border: none; 
+  border-radius: 5px; 
+}
+
+.add_to_cart {
+  background-color: #888; 
+  color: white; 
+}
+
+.buy_now {
+  background-color: #4c5b44;
+  color: white; 
+}
+
+.back_button {
+  font-size: 2rem;
+  color: black;
+  margin: 1rem auto;
+}
+
+.back_button_container {
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}

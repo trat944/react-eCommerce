@@ -1,7 +1,7 @@
 
 import { useContext } from 'react'
 import './welcomeContainer.css'
-import { UserContext } from '../../../../hooks/useContext'
+import { UserContext } from '../../../../hooks/useContextUser'
 
 
 export const WelcomeContainer = () => {

@@ -12,6 +12,12 @@ h4 {
 }
 
 .back_button {
-  font-size: 2rem;
-  color: black;
+  margin: 1rem auto;
+}
+
+.back_button_container {
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

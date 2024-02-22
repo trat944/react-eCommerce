@@ -1,0 +1,31 @@
+.relatedProducts_container {
+  overflow-x: hidden;
+  padding: 20px; 
+  background-color: #697861;
+  margin-top: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+}
+
+.products_scroll {
+  display: flex; 
+  transition: transform 0.3s ease; 
+}
+
+.products_scroll > * {
+  flex: 0 0 100%; 
+}
+
+button {
+  margin-top: 10px; 
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+.left, .right {
+  font-size: 2rem;
+  margin-top: 1rem;
+  padding-inline: 2rem;
+}

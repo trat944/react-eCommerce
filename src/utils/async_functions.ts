@@ -7,8 +7,8 @@ export interface User {
   name:      string;
   password:  string;
   email?:     string;
-  cart?:      number;
-  whishlist?: number;
+  cart?:      Product[];
+  whishlist?: Product[];
 }
 
 export interface Product {

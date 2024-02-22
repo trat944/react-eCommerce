@@ -1,0 +1,39 @@
+.card_container {
+  margin: 1rem 0;
+  position: relative;
+  width: 160px;
+  height: fit-content;
+}
+
+.card_full_container {
+  position: relative;
+}
+
+.card_container img {
+  height: 140px;
+  width: 140px;
+  border-radius: 20px;
+  object-fit: contain;
+}
+
+.card_container h2 {
+  font-size: 1.2rem;
+  margin: 0.4rem auto;
+}
+
+.card_container span {
+  font-weight: 600;
+}
+
+.whislist_icon {
+  position: absolute;
+  top: 3%;
+  right: 33%;
+  fill: none;
+  font-size: 1.5rem;
+  color: rgb(182, 28, 28);
+}
+
+.card_container {
+  margin: auto;
+}
