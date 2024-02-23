@@ -6,6 +6,7 @@ import { faHeart } from '@fortawesome/free-solid-svg-icons'
 import { addToWishlist } from '../../../utils/addToWishlist'
 import { useContext } from 'react'
 import { UserContext } from '../../../hooks/useContextUser'
+import { Toaster } from 'react-hot-toast';
 
 
 type Props = {
@@ -24,6 +25,7 @@ export const ProductCardSimple = ({ item }: Props) => {
           <span>{item.price}</span>
         </div>
       </Link>
+      <Toaster />
       {loggedUser && item && (<FontAwesomeIcon onClick={() => addToWishlist(loggedUser, item)} className='wishlist_icon' icon={faHeart} />)}
     </div>
   )

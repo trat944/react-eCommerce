@@ -15,9 +15,3 @@ h4 {
   margin: 1rem auto;
 }
 
-.back_button_container {
-  display: grid;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}

@@ -20,10 +20,7 @@ export const ProductPage = () => {
     <PageLayout>
       <ProductDetails targetedProduct={targetedProduct} />
       <ProductButtons targetedProduct={targetedProduct} />
-      <div className="back_button_container">
-        <FontAwesomeIcon onClick={goBackButton} className="back_button" icon={faAngleLeft} />
-        <span>Back to Category</span>
-      </div>
+      <FontAwesomeIcon onClick={goBackButton} className="back_button" icon={faAngleLeft} />
       <Reviews />
     </PageLayout>
   )

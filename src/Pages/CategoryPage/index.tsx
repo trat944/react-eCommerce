@@ -37,10 +37,7 @@ export const CategoryPage = ({category, description}: Props) => {
           <ProductCardSimple key={product.id} item = {product} />
         )}
       </div>
-      <div className="back_button_container">
-        <FontAwesomeIcon onClick={goBackButton} className="back_button" icon={faAngleLeft} />
-        <span>Back to Homepage</span>
-      </div>
+      <FontAwesomeIcon onClick={goBackButton} className="back_button" icon={faAngleLeft} />
       {productsFromArray.array.length > 0 && <Recommendations selectedProducts={selectedProducts} products={productsFromArray.array} />}
     </PageLayout>
   );

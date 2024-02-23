@@ -1,0 +1,16 @@
+.wishlist-item-container {
+  flex-direction: column;
+  margin: 1rem auto;
+}
+
+.add_to_cart{
+  padding: 10px 20px; 
+  font-size: 16px; 
+  border: none; 
+  border-radius: 5px; 
+}
+
+.add_to_cart {
+  background-color: #888; 
+  color: white; 
+}

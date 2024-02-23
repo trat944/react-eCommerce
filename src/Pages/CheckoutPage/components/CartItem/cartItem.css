@@ -1,0 +1,42 @@
+.full_container {
+  margin: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item_container {
+  display: flex;
+  justify-content:baseline;
+  gap: 1rem;
+}
+
+.details_container span {
+  display: block;
+  text-align: left;
+  margin-top: 0.7rem;
+}
+
+.details_container span:last-of-type {
+  font-weight: 600;
+}
+
+.product_image {
+  width: 70px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.product_name {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.quantity_container span, .quantity_container button {
+  margin-right: 0.5rem;
+}
+
+.quantity_container button {
+  padding: 0.5rem;
+  border-radius: 40%;
+}
