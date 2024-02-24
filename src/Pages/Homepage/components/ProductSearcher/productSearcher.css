@@ -1,0 +1,34 @@
+.searcher-container {
+  padding-bottom: 0.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.product-searcher {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.product-searcher input:focus {
+  outline: none;
+  border-color: #4CAF50; 
+}
+
+.search-btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0 5px 5px 0; 
+  background-color:  #4CAF50; 
+  margin: 0;
+}
+
+.search-error {
+  color: red;
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: left;
+  margin-left: 4.1rem;
+}
