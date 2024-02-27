@@ -22,6 +22,7 @@ export const CheckoutPage = () => {
   const allProducts = useHandleContext().array;
   const [totalItems, setTotalItems] = useState<number>(0);
   const [trigger, setTrigger] = useState(false);
+  const [cartAndWishlistItems, setCartAndWishlistItems] = useState([] as Product[]);
 
   ///Calculate total items
   useEffect(() => {
@@ -41,8 +42,10 @@ export const CheckoutPage = () => {
   });
 
   ///Group cart and wishlist items not to appear on the recommendations component
-  let CartAndWishlistItems: Product[] = [];
-  if (user?.cart && user.whishlist) CartAndWishlistItems = [...user?.cart, ...user.whishlist];
+  useEffect(() => {
+    if (user?.cart && user.whishlist) setCartAndWishlistItems([...user?.cart, ...user.whishlist])
+  }, [])
+
 
   return (
     <PageLayout>
@@ -68,7 +71,7 @@ export const CheckoutPage = () => {
         <Wishlist trigger={setTrigger}/>
       </div>
       <FontAwesomeIcon onClick={goBackButton} className="back_button" icon={faAngleLeft} />
-      <Recommendations selectedProducts={CartAndWishlistItems} products={allProducts} trigger={setTrigger} />
+      <Recommendations selectedProducts={cartAndWishlistItems} products={allProducts} trigger={setTrigger} />
     </PageLayout>
   );
 };

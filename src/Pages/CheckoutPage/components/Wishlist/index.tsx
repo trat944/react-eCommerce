@@ -1,4 +1,4 @@
-import { useContext, useState } from 'react';
+import { useCallback, useContext, useState } from 'react';
 import './wishlist.css'
 import { UserContext } from '../../../../hooks/useContextUser';
 import { ProductCardSimple } from '../../../../components/common/ProductCardSimple';
@@ -14,6 +14,12 @@ export const Wishlist = ({trigger}: Props) => {
   const user = useContext(UserContext).state.user;
   const [wishlist, setWishlist] = useState<Product[]>(user?.whishlist || []);
 
+  const handleAddToCart = useCallback((event: React.MouseEvent<HTMLButtonElement>, product: Product) => {
+    if (user) {
+      handleAddToCartFromWishlist(event, product, user, addToCart, trigger, wishlist, setWishlist);
+    }
+  }, [user, addToCart, trigger, wishlist, setWishlist]);
+
   return (
     wishlist.map(product => {
       return (
@@ -23,7 +29,7 @@ export const Wishlist = ({trigger}: Props) => {
 
             {user && product && (
               <button
-                onClick={(event) => handleAddToCartFromWishlist(event, product, user, addToCart, trigger, wishlist, setWishlist)}
+                onClick={(event) => handleAddToCart(event, product)}
                 className="add_to_cart_checkout"
                 >Add to Cart
               </button>

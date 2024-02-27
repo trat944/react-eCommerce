@@ -2,9 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import { useHandleContext } from '../../../../hooks/useContextProduct';
 import { Product, fetchProducts } from '../../../../utils/async_functions';
 import './productSearcher.css'
-import  { ChangeEvent, useEffect, useState } from 'react'
-
-
+import  { ChangeEvent, useCallback, useEffect, useState } from 'react'
 
 export const ProductSearcher = () => {
   const allProducts = useHandleContext();
@@ -25,7 +23,7 @@ export const ProductSearcher = () => {
     setinputValue(event?.target.value)
   }
 
-  const searchForProduct = () => {
+  const searchForProduct = useCallback(() => {
     const found = allProducts.array.find(product => product.name.toLowerCase() === inputValue.toLowerCase());
     if (found) navigate(`/${found.id}`);
     else if (!found) {
@@ -37,7 +35,7 @@ export const ProductSearcher = () => {
       else if (productsContainingWord.length > 1) navigate('/search', { state: { foundProducts: productsContainingWord } });
       else setSearchFailed(true);
     }
-  }
+  }, [inputValue]);
 
   return (
     <>

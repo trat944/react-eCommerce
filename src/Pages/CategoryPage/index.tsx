@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useMemo } from "react";
 import { fetchProducts, Product } from "../../utils/async_functions";
 import { ProductCardSimple } from "../../components/common/ProductCardSimple";
 import './categoryPage.css'
@@ -27,7 +27,9 @@ export const CategoryPage = ({category, description}: Props) => {
     fetchAndSetProducts();
   }, []);
 
-  const selectedProducts = productsFromArray.array.filter((product) => product.category === category);
+  const selectedProducts = useMemo(() => {
+    return productsFromArray.array.filter((product) => product.category === category);
+  }, [productsFromArray.array, category]);
 
   return (
     <PageLayout>
