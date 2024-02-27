@@ -25,3 +25,8 @@
   border-radius: 8px; 
 
 }
+
+.noItems {
+  display: block;
+  margin-bottom: 1rem;
+}

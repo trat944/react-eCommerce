@@ -18,14 +18,14 @@ export const ProductCardSimple = ({ item }: Props) => {
 
   return (
     <div className="card_full_container">
+      <Toaster />
       <Link to={`/${item.id}`}>
         <div className="card_container">
           <img src={item.image} alt="" />
           <h2>{item.name}</h2>
-          <span>{item.price}</span>
+          <span>{item.price}€</span>
         </div>
       </Link>
-      <Toaster />
       {loggedUser && item && (<FontAwesomeIcon onClick={() => addToWishlist(loggedUser, item)} className='wishlist_icon' icon={faHeart} />)}
     </div>
   )

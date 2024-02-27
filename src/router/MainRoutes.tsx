@@ -4,6 +4,7 @@ import { CategoryPage } from '../Pages/CategoryPage';
 import { ProductPage } from '../Pages/ProductPage';
 import { ProductsContext } from '../hooks/useContextProduct';
 import { CheckoutPage } from '../Pages/CheckoutPage';
+import { MultipleSearchResultPage } from '../Pages/MultipleSearchResultPage';
 
 
 export const MainRoutes = () => {
@@ -18,6 +19,13 @@ export const MainRoutes = () => {
         <Route path='/homepage/clock' element={<CategoryPage category="clock" description="Tired of old clocks?" />} />
         <Route path='/:productid' element= {<ProductPage />}  />
         <Route path='/cart' element= {<CheckoutPage />}  />
+        <Route path='/search' element= {<MultipleSearchResultPage />}  />
+        <Route 
+          path='/search' 
+          element={
+            <MultipleSearchResultPage />
+          }  
+        />
       </Routes>
     </ProductsContext>
   )

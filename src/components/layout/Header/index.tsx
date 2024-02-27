@@ -3,29 +3,32 @@ import './header.css';
 import { UserContext } from '../../../hooks/useContextUser';
 import { Link } from 'react-router-dom';
 import { displayNavbar } from '../../../utils/displayNavbar';
-import { logoutFunction } from '../../../utils/logoutFunction';
 
 export const Navbar = () => {
   const user = useContext(UserContext);
+  const { dispatch } = useContext(UserContext);
+
+  const logoutFunction = () => { 
+    dispatch({ type: 'LOGOUT' });
+  }
 
   return (
   <div className="header">
     <Link to={'/'}>
-      {user.state.user && <button onClick={() => logoutFunction(user.state.user)} className='logout-btn'>Logout</button>}
+      {user.state.user && <button onClick={logoutFunction} className='logout-btn'>Logout</button>}
     </Link>
     <img className='logoImg' src="/src/assets/logo.png" alt="" />
 
-    <div className="navbar">
+    {user.state.user && <div className="navbar">
       <div id="myLinks">
-        <a className="navBarLink none" href="#news">News</a>
-        <a className="navBarLink none" href="#contact">Contact</a>
-        <a className="navBarLink none" href="#about">About</a>
+        <Link to="/homepage" className="navBarLink none">Homepage</Link>
+        <Link to="/cart" className="navBarLink none">Cart</Link>
       </div>
 
       <a className="icon">
         <i className="fa fa-bars" onClick={displayNavbar}></i>
       </a>
-    </div>
+    </div>}
   </div>
   )
 }

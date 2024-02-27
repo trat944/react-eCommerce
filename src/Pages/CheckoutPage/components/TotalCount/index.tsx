@@ -1,23 +1,18 @@
 import { useContext, useEffect, useState } from 'react';
 import './totalCount.css'
 import { UserContext } from '../../../../hooks/useContextUser';
+import { calculateTotalMoney } from '../../../../utils/calculateTotalMoney';
 
 export const TotalCount = () => {
   const user = useContext(UserContext).state.user;
   const [subTotal, setsubTotal] = useState(0);
   const [shipping] = useState(15);
-  const [total, settotal] = useState(0)
+  const [total, settotal] = useState(0);
+  const [trigger, setTrigger] = useState(false);
 
   useEffect(() => {
-    if (user && user.cart) {
-      let cartSubtotal = 0;
-      user.cart.forEach(product => {
-        cartSubtotal += parseFloat(product.price);
-      })
-      setsubTotal(parseFloat(cartSubtotal.toFixed(2)));
-      settotal(parseFloat((cartSubtotal + shipping).toFixed(2)));
-    }
-  }, [user]);
+    calculateTotalMoney(user, setTrigger, settotal, setsubTotal, shipping);
+  }, [trigger]);
 
   return (
     <div className="totalCount_container">

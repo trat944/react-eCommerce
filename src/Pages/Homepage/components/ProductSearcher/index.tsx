@@ -1,16 +1,15 @@
-import { Navigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { useHandleContext } from '../../../../hooks/useContextProduct';
 import { Product, fetchProducts } from '../../../../utils/async_functions';
 import './productSearcher.css'
-
 import  { ChangeEvent, useEffect, useState } from 'react'
 
 
 
 export const ProductSearcher = () => {
   const allProducts = useHandleContext();
+  const navigate = useNavigate();
   const [inputValue, setinputValue] = useState('');
-  const [searchedProduct, setSearchedProduct] = useState<Product | undefined>(undefined);
   const [searchFailed, setSearchFailed] = useState(false);
 
   useEffect(() => {
@@ -28,8 +27,16 @@ export const ProductSearcher = () => {
 
   const searchForProduct = () => {
     const found = allProducts.array.find(product => product.name.toLowerCase() === inputValue.toLowerCase());
-    if (found) setSearchedProduct(found);
-    else setSearchFailed(true);
+    if (found) navigate(`/${found.id}`);
+    else if (!found) {
+      const productsContainingWord = allProducts.array.filter(product => {
+        const words = product.name.toLowerCase().split(' ');
+        return words.some(word => word === inputValue.toLowerCase());
+      });
+      if (productsContainingWord.length === 1) navigate(`/${productsContainingWord[0].id}`);
+      else if (productsContainingWord.length > 1) navigate('/search', { state: { foundProducts: productsContainingWord } });
+      else setSearchFailed(true);
+    }
   }
 
   return (
@@ -44,7 +51,8 @@ export const ProductSearcher = () => {
         />
         <button onClick={searchForProduct} className='search-btn' type='submit'>Search</button>
 
-        {searchedProduct && <Navigate to={`/${searchedProduct.id}`} />}
+        {/* {searchedProducts && searchedProducts?.length > 1 && 
+        <MultipleSearchResultPage foundProducts={searchedProducts} /> } */}
       </div>
       {searchFailed && <span className='search-error'>No product found with that name</span>}
     </>

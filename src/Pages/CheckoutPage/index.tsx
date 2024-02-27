@@ -21,8 +21,9 @@ export const CheckoutPage = () => {
   const goBackButton = useBackButton();
   const allProducts = useHandleContext().array;
   const [totalItems, setTotalItems] = useState<number>(0);
+  const [trigger, setTrigger] = useState(false);
 
-  ///para poner shopping bag
+  ///Calculate total items
   useEffect(() => {
     if (user && user.cart) {
       const newTotalItems = user.cart.length;
@@ -30,19 +31,18 @@ export const CheckoutPage = () => {
     } else {
       setTotalItems(0);
     }
-  }, [user]);
+  }, [trigger]);
 
-  ///para pasar los items agrupados
+  ///Group equal items
   const productCount: ProductCount = {};
   user?.cart?.forEach(item => {
-    const productId: number = item.id;
+    const productId = item.id;
     productCount[productId] = productCount[productId] ? productCount[productId] + 1 : 1;
   });
 
-  ///para agrupar items en cart y wishlist y pasarlo a recommendations
+  ///Group cart and wishlist items not to appear on the recommendations component
   let CartAndWishlistItems: Product[] = [];
   if (user?.cart && user.whishlist) CartAndWishlistItems = [...user?.cart, ...user.whishlist];
-  console.log(CartAndWishlistItems)
 
   return (
     <PageLayout>
@@ -52,19 +52,23 @@ export const CheckoutPage = () => {
           <CartItem 
           product={user?.cart?.find(item => String(item.id) === productId)} 
           count= {count}
+          trigger={setTrigger}
           />
         </div>
       ))}
-      <TotalCount />
-      <button className='checkout-btn'>Buy</button>
+      {totalItems === 0 && <span className='noItems'>No items in your cart</span>}
+      {totalItems > 0 && (
+        <>
+          <TotalCount />
+          <button className='checkout-btn'>Buy</button>
+        </>
+      )}
       <h3 className='wishlist_title'>Your Wishlist</h3>
       <div className="wishlist_container">
-        <Wishlist />
+        <Wishlist trigger={setTrigger}/>
       </div>
       <FontAwesomeIcon onClick={goBackButton} className="back_button" icon={faAngleLeft} />
-      <Recommendations selectedProducts={CartAndWishlistItems} products={allProducts} />
+      <Recommendations selectedProducts={CartAndWishlistItems} products={allProducts} trigger={setTrigger} />
     </PageLayout>
   );
 };
-
-/// botones de Checkout y Back

@@ -9,9 +9,10 @@ import { ProductCardForCarousel } from "../ProductCardForCarousel"
 type Props = {
   selectedProducts: Product[]
   products: Product[]
+  trigger?: React.Dispatch<React.SetStateAction<boolean>>
 }
 
-export const Recommendations = ({selectedProducts, products}: Props) => {
+export const Recommendations = ({selectedProducts, products, trigger}: Props) => {
   const [relatedProducts, setRelatedProducts] = useState<Product[]>([])
   const relatedProductsArray: Product[] = [];
 
@@ -42,7 +43,7 @@ export const Recommendations = ({selectedProducts, products}: Props) => {
       <h2>You may also like</h2>
       <div className="products_scroll" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
         {relatedProducts.map(product => (
-          <ProductCardForCarousel key={product.id} item={product} />
+          <ProductCardForCarousel key={product.id} item={product} trigger={trigger} />
         ))}
       </div>
       <FontAwesomeIcon

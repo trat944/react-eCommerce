@@ -4,10 +4,10 @@ import { useEffect, useContext } from 'react';
 import { fetchUsers, User } from '../../../../utils/async_functions';
 import { useCheck } from '../../../../hooks/useCheck';
 import { UserContext } from '../../../../hooks/useContextUser';
-import { Navigate } from 'react-router-dom';
-
+import { useNavigate } from 'react-router-dom';
 
 export const LoginContainer = () => {
+  const navigate = useNavigate()
 
   const {onCheckInput, showUsernameError, showUserPasswordError, formSubmitted, setFoundUser, foundUser, user, setUser} = useCheck();
   const { dispatch } = useContext(UserContext);
@@ -16,12 +16,13 @@ export const LoginContainer = () => {
     if (!showUsernameError && !showUserPasswordError) {
       const users: User[] = await fetchUsers();
       const loggedUser = users.find(userFetched => (
-        userFetched.name === user.name && userFetched.password === user.password
-      ));
+        userFetched.name.trim().toLowerCase() === user.name.trim().toLowerCase() && userFetched.password
+         === user.password
+      ))
       if (loggedUser) {
+        navigate('/homepage')
         dispatch({ type: "LOGIN", payload: loggedUser });
         setFoundUser(false);
-        <Navigate to="/homepage" />;
       } else setFoundUser(true);
     }
   }

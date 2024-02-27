@@ -7,16 +7,17 @@ type UserState = {
 };
 
 // Definir las acciones para modificar el estado del usuario
-type UserAction = {
-  type: "LOGIN";
-  payload: User;
-};
+type UserAction = 
+  | { type: 'LOGIN'; payload: User }
+  | { type: 'LOGOUT' };
 
 // Función reductora para modificar el estado del usuario
 const userReducer = (state: UserState, action: UserAction): UserState => {
   switch (action.type) {
     case "LOGIN":
       return { ...state, user: action.payload };
+    case 'LOGOUT':
+      return { ...state, user: null };
     default:
       return state;
   }

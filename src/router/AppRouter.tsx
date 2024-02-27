@@ -12,7 +12,7 @@ export const AppRouter = () => {
 
         <Routes>
           <Route path='/' element= { <Login/> } />
-
+        
           <Route path='/*' element={
             <PrivateRoute>
               <MainRoutes />
