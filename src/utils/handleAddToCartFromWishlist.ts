@@ -15,7 +15,6 @@ export const handleAddToCartFromWishlist = (
       updateStateofWishlistItems(wishlist, product, setWishlist);
       removeWishlistItemContainer(event);
     }
-    console.log(user.whishlist)
   };
   
   const removeFromWishlistArray = (user: User, product: Product) => {

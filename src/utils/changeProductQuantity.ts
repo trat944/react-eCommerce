@@ -13,7 +13,6 @@ export const addQuantity = (
   setTimeout(() => {
     trigger(false);
   }, 100);
-  console.log(user)
 }
 export const decreaseQuantity = (
   setQuantity: React.Dispatch<React.SetStateAction<number>>,
@@ -30,6 +29,5 @@ export const decreaseQuantity = (
     setTimeout(() => {
       trigger(false);
     }, 100);
-    console.log(user)
   }
 }
