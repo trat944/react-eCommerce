@@ -12,11 +12,14 @@ Welcome to **Hogar Mandala**, where beauty meets functionality! 🌺 Immerse you
 
 - **Intuitive User Interface**: Experience the joy of effortless shopping with our user-friendly interface, designed to provide a seamless and enjoyable browsing experience.
 - **Wishlist Functionality**: Never forget your favorite items again! Save products to your wishlist for easy access and future purchases.
+- **Dynamic Search Bar**: A search bar that identifies the exact product or filters those who contain the letters/word introduced.
 - **Dynamic Cart Management**: Add and remove products from your cart with ease, and watch as your shopping bag adapts dynamically to your selections.
 - **Real-Time Notifications**: Stay informed about your shopping journey with React Hot Toast, providing instant feedback and alerts for important actions.
 - **Private Routes**: Enjoy peace of mind while browsing with our secure authentication system, allowing seamless navigation through private routes exclusive to registered users.
 - **Enhanced Wishlist Features**: Personalized  wishlist, easily adapted and interchanged with products in the cart.
 - **Intelligent Product Recommendations**: Implemented algorithms to provide personalized product recommendations based on user preferences and cart products, making shopping even more delightful and convenient.
+
+IMPORTANT! This project is only implemented in mobile devices (desired: 425px).
 
 ## 🛒 **Related Products & Reviews**
 
