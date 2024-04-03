@@ -1,7 +1,7 @@
 # Welcome to Hogar Mandala 🏠🌀
 
-<p align="center">
-  <img src="/src/assets/e-commercelayoute.jpg" alt="Hogar Mandala Logo" width="200" />
+<p align="left">
+  <img src="/src/assets/e-commercelayoute.jpg" alt="Hogar Mandala Logo" width="fit-content" />
 </p>
 
 ## 🌟 **Discover the Beauty of Mandala Decor**
