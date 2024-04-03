@@ -1,67 +1,61 @@
-**Daily Log**
+# Welcome to Hogar Mandala 🏠🌀
 
-- Day 1: 06/02/24
-    Initial Design in Figma - Main ideas about style.
+<p align="center">
+  <img src="/src/assets/e-commercelayoute.jpg" alt="Hogar Mandala Logo" width="200" />
+</p>
 
-- Day 2: 07/02/24
-  Figma Iterations - Product Details and Cart Views
-  Setting Up ClickUp for Task Management
+## 🌟 **Discover the Beauty of Mandala Decor**
 
-- Day 3: 08/02/24
-  Refining Login Page Layout
-  Customizing Login Page Styling
+Welcome to **Hogar Mandala**, where beauty meets functionality! 🌺 Immerse yourself in a world of aesthetic decor inspired by the intricate patterns of mandalas. With a seamless shopping experience and a vast array of products, let your home reflect your unique style and personality.
 
-- Day 4: 09/02/24
-  Creating Mock Data Files for Reviews, Users and Products
-  Establishing Authentication User Context
+## 🚀 **Key Features**
 
-- Day 5: 12/02/24
-  Rendering Product Cards on Homepage
-  Adding Product Links to Cart
+- **Intuitive User Interface**: Experience the joy of effortless shopping with our user-friendly interface, designed to provide a seamless and enjoyable browsing experience.
+- **Wishlist Functionality**: Never forget your favorite items again! Save products to your wishlist for easy access and future purchases.
+- **Dynamic Cart Management**: Add and remove products from your cart with ease, and watch as your shopping bag adapts dynamically to your selections.
+- **Real-Time Notifications**: Stay informed about your shopping journey with React Hot Toast, providing instant feedback and alerts for important actions.
+- **Private Routes**: Enjoy peace of mind while browsing with our secure authentication system, allowing seamless navigation through private routes exclusive to registered users.
+- **Enhanced Wishlist Features**: Personalized  wishlist, easily adapted and interchanged with products in the cart.
+- **Intelligent Product Recommendations**: Implemented algorithms to provide personalized product recommendations based on user preferences and cart products, making shopping even more delightful and convenient.
 
-- Day 6: 13/02/24
-  Designing Product Page Layout
-  Customizing Product Page Styling
-  Implementing Dynamic Links
+## 🛒 **Related Products & Reviews**
 
-- Day 7: 14/02/24
-  Developing Cart Page Layout
-  Styling Cart Page Components
+Explore our curated selection of related products with our carousel feature, designed to showcase complementary items and inspire your decor journey. Additionally, discover authentic customer experiences with our random reviews section, providing insights and recommendations from our valued community members.
 
-- Day 8: 15/02/24
-  Including "Add to Cart" Functionality on Product Page
-  Implementing "Add/Remove" Functionality for Wishlist
+## 💻 **Technologies Used**
 
-- Day 9: 16/02/24
-  Updating Price Based on Cover Option Selection
-  Implementing Add/Remove Buttons on Cart Page
-  Updating Total Price Display on Cart Page
+- **React**: Powers the frontend interface with its powerful component-based architecture, delivering a responsive and dynamic user experience.
+- **TypeScript**: Enhances code quality and maintainability, ensuring a robust and error-free application.
+- **React Router Dom**: Enables seamless navigation between different pages and components, allowing users to explore our product catalog effortlessly.
+- **React Hot Toast**: Provides real-time notifications and alerts, enhancing user engagement and interaction with the platform.
 
-- Day 10: 19/02/24
-  Finalizing Cart Page Features
-  Designing Wishlist Page Layout
+## 🚧 **Challenges Faced**
 
-- Day 11: 20/02/24
-  Implementing Logout Functionality
-  Displaying Message for Empty Cart
-  Implement logic when cart is empty
+- **Scalability**: Ensuring the platform can handle increased traffic and product catalog expansion while maintaining optimal performance and user experience.
+- **User Feedback Incorporation**: Continuously gathering and integrating user feedback to address pain points, enhance features, and improve overall satisfaction.
 
-- Day 12: 21/02/24
-  Designing Checkout Page Layout
-  Customizing Checkout Page Styling
+## 📣 **Join the Hogar Mandala Community**
 
-- Day 13: 22/02/24
-  Adding Category Filters to Products
+Become part of the **Hogar Mandala** family today! Whether you're a decor enthusiast, a tech aficionado, or simply love discovering new treasures for your home, we'd love to have you on board.
 
-- Day 14: 26/02/2024
-  Adding Recommended Products Section
+Feel free to reach out to us at [	infohogarmandala@gmail.com](mailto:infohogarmandala@gmail.com) or visit our website at [hogarmandala.com](https://www.hogarmandala.com) to start your decor journey today!
+
+Let's transform your home into a sanctuary of beauty and harmony with **Hogar Mandala**! 🌺🏡
+
+---
+
+**Note:** Hogar Mandala is a completed project, featuring user authentication for private route navigation, along with an engaging carousel of related products and randomized reviews for an immersive shopping experience.
 
 **Challenges Faced**
 
-State Management: Implementing effective state management, especially with complex data structures, posed challenges initially. Leveraging React's Context API and custom hooks helped streamline this process.
+## State Management
 
-Handling Asynchronous Operations: Managing asynchronous operations, such as fetching data from APIs and updating the UI accordingly, required careful handling to prevent race conditions and ensure data consistency.
+Implementing effective state management, especially with complex data structures, posed challenges initially. Leveraging React's Context API and custom hooks helped streamline this process.
 
-Styling and Layout: Achieving the desired styling and layout design, especially for responsive views, required meticulous attention to detail and CSS/SCSS skills.
+## Handling Asynchronous Operations
 
-Error Handling: Implementing robust error handling mechanisms to provide meaningful feedback to users in case of failures or unexpected behavior was crucial yet challenging.
+Managing asynchronous operations, such as fetching data from APIs and updating the UI accordingly, required careful handling to prevent race conditions and ensure data consistency.
+
+## Error Handling
+
+Implementing robust error handling mechanisms to provide meaningful feedback to users in case of failures or unexpected behavior was crucial yet challenging.
