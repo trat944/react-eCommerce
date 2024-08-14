@@ -21,20 +21,20 @@ export interface Product {
 }
 
 export const fetchReviews = async() => {
-    const response = await fetch('/src/data_json/reviews.json');
+    const response = await fetch('/data_json/reviews.json');
     const data: Review[] = await response.json();
     return data;
 }
 
 
 export const fetchUsers = async() => {
-  const response = await fetch('/src/data_json/users.json');
+  const response = await fetch('/data_json/users.json');
   const data: User[] = await response.json();
   return data;
 }
 
 export const fetchProducts = async() => {
-  const response = await fetch('/src/data_json/products.json');
+  const response = await fetch('/data_json/products.json');
   const data: Product[] = await response.json();
   return data;
 }

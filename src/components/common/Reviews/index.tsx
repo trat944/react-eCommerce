@@ -25,7 +25,7 @@ export const Reviews = () => {
   
   return (
     <div className="review_container">
-      <img className='review_img' src="/src/assets/reviewImg.png" alt="" />
+      <img className='review_img' src="/reviewImg.png" alt="" />
       <div className="review_content">
         <div className="review_stars">
           <FontAwesomeIcon icon={faStar} />

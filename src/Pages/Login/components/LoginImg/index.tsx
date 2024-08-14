@@ -3,7 +3,7 @@ import './loginImg.css';
 export const LoginImg = () => {
   return (
     <>
-      <img className='contentImg' src="/src/assets/panel-lotus-marron.png" alt="" />
+      <img className='contentImg' src="/panel-lotus-marron.png" alt="" />
     </>
   )
 }

@@ -1,5 +1,7 @@
 # Welcome to Hogar Mandala 🏠🌀
 
+## ** Important -> This interface is designed for 425px width (mobile phone). Use a login user from JSON. **
+
 <p align="left">
   <img src="/src/assets/e-commercelayoute.jpg" alt="Hogar Mandala Logo" width="fit-content" />
 </p>

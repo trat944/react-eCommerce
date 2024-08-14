@@ -17,7 +17,7 @@ export const Navbar = () => {
     <Link to={'/'}>
       {user.state.user && <button onClick={logoutFunction} className='logout-btn'>Logout</button>}
     </Link>
-    <img className='logoImg' src="/src/assets/logo.png" alt="" />
+    <img className='logoImg' src="/logo.png" alt="" />
 
     {user.state.user && <div className="navbar">
       <div id="myLinks">

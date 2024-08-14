@@ -5,7 +5,7 @@
     "category": "panel",
     "description": "Decorate effortlessly with our Decorative Panel Set! Customize the size and color according to your preferences. Feel free to inquire without obligation! We can make it larger or smaller. Our panels are made of 4mm thick poplar plywood, with a symmetrical design and a soothing effect. Lightweight and modern, you can choose your favorite color. The product consists of 3 handcrafted panels made of organic wood",
     "price": "39.99",
-    "image": "/src/assets/products/wooden_panels/wooden_flower_panel.webp"
+    "image": "/products/wooden_panels/wooden_flower_panel.webp"
   },
   {
     "id": "2",
@@ -13,7 +13,7 @@
     "category": "panel",
     "description": "Decorate effortlessly with our Decorative Panel Set! Customize the size and color according to your preferences. Feel free to inquire without obligation! We can make it larger or smaller. Our panels are made of 4mm thick poplar plywood, with a symmetrical design and a soothing effect. Lightweight and modern, you can choose your favorite color. The product consists of 3 handcrafted panels made of organic wood",
     "price": "34.99",
-    "image": "/src/assets/products/wooden_panels/wooden_geometric_panel.webp"
+    "image": "/products/wooden_panels/wooden_geometric_panel.webp"
   },
   {
     "id": "3",
@@ -21,7 +21,7 @@
     "category": "panel",
     "description": "Decorate effortlessly with our Decorative Panel Set! Customize the size and color according to your preferences. Feel free to inquire without obligation! We can make it larger or smaller. Our panels are made of 4mm thick poplar plywood, with a symmetrical design and a soothing effect. Lightweight and modern, you can choose your favorite color. The product consists of 3 handcrafted panels made of organic wood",
     "price": "49.99",
-    "image": "/src/assets/products/wooden_panels/wooden_lotus_panel.png"
+    "image": "/products/wooden_panels/wooden_lotus_panel.png"
   },
   {
     "id": "4",
@@ -29,7 +29,7 @@
     "category": "panel",
     "description": "Decorate effortlessly with our Decorative Panel Set! Customize the size and color according to your preferences. Feel free to inquire without obligation! We can make it larger or smaller. Our panels are made of 4mm thick poplar plywood, with a symmetrical design and a soothing effect. Lightweight and modern, you can choose your favorite color. The product consists of 3 handcrafted panels made of organic wood",
     "price": "31.99",
-    "image": "/src/assets/products/wooden_panels/wooden_tree_panel.png"
+    "image": "/products/wooden_panels/wooden_tree_panel.png"
   },
   {
     "id": "5",
@@ -37,7 +37,7 @@
     "category": "wooden",
     "description": "We produce this HDF (High-Density Fiberboard) wood wall art, 3 mm thick. Or from natural poplar plywood - 4 mm thick, only if you choose the natural color. Handmade and finished in our workshop. Each decoration is unique because each piece of wood is unique with a different wood grain, fiber arrangement, and tone",
     "price": "89.99",
-    "image": "/src/assets/products/wooden_decor/budha_wooden_decor.png"
+    "image": "/products/wooden_decor/budha_wooden_decor.png"
   },
   {
     "id": "6",
@@ -45,7 +45,7 @@
     "category": "wooden",
     "description": "We produce this HDF (High-Density Fiberboard) wood wall art, 3 mm thick. Or from natural poplar plywood - 4 mm thick, only if you choose the natural color. Handmade and finished in our workshop. Each decoration is unique because each piece of wood is unique with a different wood grain, fiber arrangement, and tone",
     "price": "42.99",
-    "image": "/src/assets/products/wooden_decor/flower_wooden_decor.webp"
+    "image": "/products/wooden_decor/flower_wooden_decor.webp"
   },
   {
     "id": "7",
@@ -53,7 +53,7 @@
     "category": "wooden",
     "description": "We produce this HDF (High-Density Fiberboard) wood wall art, 3 mm thick. Or from natural poplar plywood - 4 mm thick, only if you choose the natural color. Handmade and finished in our workshop. Each decoration is unique because each piece of wood is unique with a different wood grain, fiber arrangement, and tone",
     "price": "31.99",
-    "image": "/src/assets/products/wooden_decor/halfmandala_wooden_decor.webp"
+    "image": "/products/wooden_decor/halfmandala_wooden_decor.webp"
   },
   {
     "id": "8",
@@ -61,7 +61,7 @@
     "category": "wooden",
     "description": "We produce this HDF (High-Density Fiberboard) wood wall art, 3 mm thick. Or from natural poplar plywood - 4 mm thick, only if you choose the natural color. Handmade and finished in our workshop. Each decoration is unique because each piece of wood is unique with a different wood grain, fiber arrangement, and tone",
     "price": "96.50",
-    "image": "/src/assets/products/wooden_decor/mandala_wooden_decor.png"
+    "image": "/products/wooden_decor/mandala_wooden_decor.png"
   },
   {
     "id": "9",
@@ -69,7 +69,7 @@
     "category": "clock",
     "description": "Add a touch of charm to your home with the Mandala wall clock! This unique and beautiful clock will elevate the decor of any room. Available in 5 different sizes (30 cm to 60 cm), it's perfect for any wall! Made with high-quality materials and available in 10 wood colors, the clock will suit your style and current decor. Its durability and natural beauty ensure you'll enjoy it for many years",
     "price": "61.99",
-    "image": "/src/assets/products/wooden_clocks/mandala_wooden_clock.png"
+    "image": "/products/wooden_clocks/mandala_wooden_clock.png"
   },
   {
     "id": "10",
@@ -77,7 +77,7 @@
     "category": "clock",
     "description": "Add a touch of charm to your home with the Mandala wall clock! This unique and beautiful clock will elevate the decor of any room. Available in 5 different sizes (30 cm to 60 cm), it's perfect for any wall! Made with high-quality materials and available in 10 wood colors, the clock will suit your style and current decor. Its durability and natural beauty ensure you'll enjoy it for many years",
     "price": "61.99",
-    "image": "/src/assets/products/wooden_clocks/mandala_wooden_clock2.webp"
+    "image": "/products/wooden_clocks/mandala_wooden_clock2.webp"
   },
   {
     "id": "11",
@@ -85,7 +85,7 @@
     "category": "clock",
     "description": "Add a touch of charm to your home with the Mandala wall clock! This unique and beautiful clock will elevate the decor of any room. Available in 5 different sizes (30 cm to 60 cm), it's perfect for any wall! Made with high-quality materials and available in 10 wood colors, the clock will suit your style and current decor. Its durability and natural beauty ensure you'll enjoy it for many years",
     "price": "61.99",
-    "image": "/src/assets/products/wooden_clocks/mandala_wooden_clock3.webp"
+    "image": "/products/wooden_clocks/mandala_wooden_clock3.webp"
   },
   {
     "id": "12",
@@ -93,7 +93,7 @@
     "category": "clock",
     "description": "Add a touch of charm to your home with the Mandala wall clock! This unique and beautiful clock will elevate the decor of any room. Available in 5 different sizes (30 cm to 60 cm), it's perfect for any wall! Made with high-quality materials and available in 10 wood colors, the clock will suit your style and current decor. Its durability and natural beauty ensure you'll enjoy it for many years",
     "price": "41.99",
-    "image": "/src/assets/products/wooden_clocks/mandala_wooden_clock4.webp"
+    "image": "/products/wooden_clocks/mandala_wooden_clock4.webp"
   },
   {
     "id": "13",
@@ -101,7 +101,7 @@
     "category": "mirror",
     "description": "Give a touch of bohemian elegance to your home with our macramé wall mirror! Handcrafted with acrylic mirror and fringe details, this decorative mirror will not only catch the eye but also add a touch of charm to your living room, bedroom, or other spaces",
     "price": "29.99",
-    "image": "/src/assets/products/mirrors/mirror1.webp"
+    "image": "/products/mirrors/mirror1.webp"
   },
   {
     "id": "14",
@@ -109,7 +109,7 @@
     "category": "mirror",
     "description": "Give a touch of bohemian elegance to your home with our macramé wall mirror! Handcrafted with acrylic mirror and fringe details, this decorative mirror will not only catch the eye but also add a touch of charm to your living room, bedroom, or other spaces",
     "price": "39.99",
-    "image": "/src/assets/products/mirrors/mirror2.webp"
+    "image": "/products/mirrors/mirror2.webp"
   },
   {
     "id": "15",
@@ -117,7 +117,7 @@
     "category": "mirror",
     "description": "Give a touch of bohemian elegance to your home with our macramé wall mirror! Handcrafted with acrylic mirror and fringe details, this decorative mirror will not only catch the eye but also add a touch of charm to your living room, bedroom, or other spaces",
     "price": "29.99",
-    "image": "/src/assets/products/mirrors/mirror3.webp"
+    "image": "/products/mirrors/mirror3.webp"
   },
   {
     "id": "16",
@@ -125,7 +125,7 @@
     "category": "mirror",
     "description": "Give a touch of bohemian elegance to your home with our macramé wall mirror! Handcrafted with acrylic mirror and fringe details, this decorative mirror will not only catch the eye but also add a touch of charm to your living room, bedroom, or other spaces",
     "price": "29.99",
-    "image": "/src/assets/products/mirrors/mirror4.webp"
+    "image": "/products/mirrors/mirror4.webp"
   },
   {
     "id": "17",
@@ -133,7 +133,7 @@
     "category": "metal",
     "description": "Discover our masterpiece. This beautiful accessory captures the beauty and harmony of nature in a unique and meaningful piece. Carry it with you and embody the free spirit of the birds and the strength of the tree of life. Made with high-quality recycled iron, this sturdy metal decor features a special coating for a retro and rustic look while protecting against rust and abrasion",
     "price": "35.99",
-    "image": "/src/assets/products/metal_decor/bird_metal_decor.webp"
+    "image": "/products/metal_decor/bird_metal_decor.webp"
   },
   {
     "id": "18",
@@ -141,7 +141,7 @@
     "category": "metal",
     "description": "Discover our masterpiece. This beautiful accessory captures the beauty and harmony of nature in a unique and meaningful piece. Carry it with you and embody the free spirit of the birds and the strength of the tree of life. Made with high-quality recycled iron, this sturdy metal decor features a special coating for a retro and rustic look while protecting against rust and abrasion",
     "price": "35.99",
-    "image": "/src/assets/products/metal_decor/birdandtree_metal_decor.webp"
+    "image": "/products/metal_decor/birdandtree_metal_decor.webp"
   },
   {
     "id": "19",
@@ -149,7 +149,7 @@
     "category": "metal",
     "description": "Discover our masterpiece. This beautiful accessory captures the beauty and harmony of nature in a unique and meaningful piece. Carry it with you and embody the free spirit of the birds and the strength of the tree of life. Made with high-quality recycled iron, this sturdy metal decor features a special coating for a retro and rustic look while protecting against rust and abrasion",
     "price": "35.99",
-    "image": "/src/assets/products/metal_decor/birdOnly_metal_decor.webp"
+    "image": "/products/metal_decor/birdOnly_metal_decor.webp"
   },
   {
     "id": "20",
@@ -157,6 +157,6 @@
     "category": "metal",
     "description": "Discover our masterpiece. This beautiful accessory captures the beauty and harmony of nature in a unique and meaningful piece. Carry it with you and embody the free spirit of the birds and the strength of the tree of life. Made with high-quality recycled iron, this sturdy metal decor features a special coating for a retro and rustic look while protecting against rust and abrasion",
     "price": "35.99",
-    "image": "/src/assets/products/metal_decor/tree_metal_decor.webp"
+    "image": "/products/metal_decor/tree_metal_decor.webp"
   }
 ]
