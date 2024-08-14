@@ -12,15 +12,14 @@ Welcome to **Hogar Mandala**, where beauty meets functionality! 🌺 Immerse you
 
 - **Intuitive User Interface**: Experience the joy of effortless shopping with our user-friendly interface, designed to provide a seamless and enjoyable browsing experience.
 - **Wishlist Functionality**: Never forget your favorite items again! Save products to your wishlist for easy access and future purchases.
+- **Dynamic Search Bar**: A search bar that identifies the exact product or filters those who contain the letters/word introduced.
 - **Dynamic Cart Management**: Add and remove products from your cart with ease, and watch as your shopping bag adapts dynamically to your selections.
 - **Real-Time Notifications**: Stay informed about your shopping journey with React Hot Toast, providing instant feedback and alerts for important actions.
 - **Private Routes**: Enjoy peace of mind while browsing with our secure authentication system, allowing seamless navigation through private routes exclusive to registered users.
 - **Enhanced Wishlist Features**: Personalized  wishlist, easily adapted and interchanged with products in the cart.
 - **Intelligent Product Recommendations**: Implemented algorithms to provide personalized product recommendations based on user preferences and cart products, making shopping even more delightful and convenient.
 
-## 🛒 **Related Products & Reviews**
-
-Explore our curated selection of related products with our carousel feature, designed to showcase complementary items and inspire your decor journey. Additionally, discover authentic customer experiences with our random reviews section, providing insights and recommendations from our valued community members.
+IMPORTANT! This project is only implemented in mobile devices (desired: 425px).
 
 ## 💻 **Technologies Used**
 
@@ -34,19 +33,9 @@ Explore our curated selection of related products with our carousel feature, des
 - **Scalability**: Ensuring the platform can handle increased traffic and product catalog expansion while maintaining optimal performance and user experience.
 - **User Feedback Incorporation**: Continuously gathering and integrating user feedback to address pain points, enhance features, and improve overall satisfaction.
 
-## 📣 **Join the Hogar Mandala Community**
-
-Become part of the **Hogar Mandala** family today! Whether you're a decor enthusiast, a tech aficionado, or simply love discovering new treasures for your home, we'd love to have you on board.
-
-Feel free to reach out to us at [	infohogarmandala@gmail.com](mailto:infohogarmandala@gmail.com) or visit our website at [hogarmandala.com](https://www.hogarmandala.com) to start your decor journey today!
-
-Let's transform your home into a sanctuary of beauty and harmony with **Hogar Mandala**! 🌺🏡
-
 ---
 
 **Note:** Hogar Mandala is a completed project, featuring user authentication for private route navigation, along with an engaging carousel of related products and randomized reviews for an immersive shopping experience.
-
-**Challenges Faced**
 
 ## State Management
 
