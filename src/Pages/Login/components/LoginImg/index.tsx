@@ -1,8 +1,6 @@
 import './loginImg.css';
 
-type Props = {}
-
-export const LoginImg = (props: Props) => {
+export const LoginImg = () => {
   return (
     <>
       <img className='contentImg' src="/src/assets/panel-lotus-marron.png" alt="" />

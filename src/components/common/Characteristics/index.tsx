@@ -3,9 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faThumbsUp, faTruckFast } from '@fortawesome/free-solid-svg-icons';
 import { faPagelines } from '@fortawesome/free-brands-svg-icons';
 
-type Props = {}
-
-export const Characteristics = (props: Props) => {
+export const Characteristics = () => {
   return (
     <div className="characteristics_container">
       <div>
